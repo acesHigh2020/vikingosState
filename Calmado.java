@@ -8,7 +8,7 @@ public class Calmado implements Estado{
 	
 	@Override
 	public void meditar() {
-		System.out.println("El vikingo "+v.getNombre()+" sigue meditando");
+		System.out.println("El vikingo "+v.getNombre()+" sigue meditando y continÃºa en estado calmado!");
 		
 	}
 
@@ -32,7 +32,7 @@ public class Calmado implements Estado{
 
 	@Override
 	public int recibeAtaque(int n) {
-		System.out.println("¡¡No le causó daño al vikingo "+v.getNombre()+"!!");	
+		System.out.println("Â¡Â¡No le causÃ³ daÃ±o al vikingo "+v.getNombre()+"!!");	
 		return 0;
 	}
 
